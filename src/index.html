@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
-    <div class="container"></div>
-    <h3>Don't laugh Challange</h3>
-    <div id="joke" class="joke"></div>
-    <button id="jokeBtn" class="btl">Get Another Joke</button>
+    <div class="container">
+      <img alt="" id="laughImg" />
+      <h3>Don't laugh Challange</h3>
+      <div id="joke" class="joke"></div>
+      <button id="jokeBtn" class="btn">Get Another Joke</button>
+    </div>
   </body>
 </html>
